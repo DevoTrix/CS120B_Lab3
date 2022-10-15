@@ -31,7 +31,7 @@ void Tick() {
   val = analogRead(A0);
   val = map(val, 0, 1021, 0, 4);
   bright = analogRead(A1);
-  if(bright > 98){
+  if(bright > 120){
     bright = 1;
     }
   else{
